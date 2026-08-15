@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Zahidi Travel & Tours</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/brand/zahidi-logo.png" />
+</head>
+<body>
+  <div class="topbar"><div class="container"><div>Talk to Zahidi</div><div class="topbar-right"><a href="tel:+263776837326">+263 776 837 326</a></div></div></div>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><img src="images/brand/zahidi-logo.png" alt="Zahidi Travel &amp; Tours" /></a>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="siteNav"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Holidays</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="corporate.html">Corporate</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="flyers.html">Flyers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul></nav>
+    <a class="btn btn-orange" href="https://wa.me/263776837326">WhatsApp</a>
+  </div></header>
+
+  <section class="page-hero">
+    <img src="images/destinations/africa-landscape.jpg" alt="Zimbabwe landscape" />
+    <div class="overlay"></div>
+    <div class="container"><p class="eyebrow">Contact</p><h1>Let’s plan the journey</h1></div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="info-card">
+        <h2>Reach Zahidi</h2>
+        <p>Numbers taken from Zahidi vehicles and tour materials.</p>
+        <div class="info-row"><strong>Phone</strong><div><a href="tel:+263776837326">+263 776 837 326</a></div></div>
+        <div class="info-row"><strong>WhatsApp</strong><div><a href="https://wa.me/263776837326" target="_blank" rel="noopener">Chat on WhatsApp</a></div></div>
+        <div class="info-row"><strong>Base</strong><div>Harare, Zimbabwe · tours nationwide</div></div>
+        <div class="info-row"><strong>Hours</strong><div>Monday–Saturday · reply on WhatsApp daily</div></div>
+        <p>Ask about school groups, corporate retreats, Vic Falls, Kariba, Nyanga, Dubai, Abu Dhabi, London or Singapore.</p>
+      </div>
+      <form class="form-card" onsubmit="handleEnquireForm(event)">
+        <h2>Enquiry</h2>
+        <input name="name" required placeholder="Full name" />
+        <input name="phone" required placeholder="Phone or WhatsApp" />
+        <select name="interest" required>
+          <option value="">What are you planning?</option>
+          <option>Victoria Falls holiday</option>
+          <option>Lake Kariba</option>
+          <option>Nyanga holiday</option>
+          <option>Chinhoyi Caves / school tour</option>
+          <option>Mutarazi Skywalk</option>
+          <option>Team building</option>
+          <option>Charter hire</option>
+          <option>Dubai</option>
+          <option>Abu Dhabi</option>
+          <option>London</option>
+          <option>Singapore</option>
+          <option>Flights / hotels / visas</option>
+        </select>
+        <textarea name="message" placeholder="Dates, group size, anything we should know"></textarea>
+        <button class="btn btn-orange" type="submit">Send on WhatsApp</button>
+        <p class="success">Opening WhatsApp with your enquiry…</p>
+      </form>
+    </div>
+  </section>
+  <footer><div class="container copy"><span>© 2026 Zahidi Travel &amp; Tours</span><a href="index.html">Home</a></div></footer>
+  <a class="whatsapp-float" href="https://wa.me/263776837326">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>

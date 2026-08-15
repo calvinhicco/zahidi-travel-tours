@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 320" role="img" aria-labelledby="zahidiTitle">
+  <title id="zahidiTitle">Zahidi Travel &amp; Tours</title>
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="140" cy="92" rx="78" ry="62" stroke="#0D2149" stroke-width="6" transform="rotate(-18 140 92)"/>
+    <ellipse cx="140" cy="92" rx="78" ry="62" stroke="#0D2149" stroke-width="6" transform="rotate(28 140 92)"/>
+  </g>
+  <text x="140" y="118" text-anchor="middle" font-family="Montserrat, Arial Black, sans-serif" font-size="92" font-weight="800" fill="#0D2149">Z</text>
+  <g transform="translate(198 28)">
+    <path d="M2 18 L28 8 L18 20 L32 18 L22 24 L8 22 L14 16 Z" fill="#F58220"/>
+  </g>
+  <text x="140" y="188" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="36" font-weight="800" fill="#F58220" letter-spacing="4">ZAHIDI</text>
+  <text x="140" y="218" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600" fill="#0D2149" letter-spacing="2">Travel &amp; Tours</text>
+  <text x="140" y="258" text-anchor="middle" font-family="Great Vibes, Georgia, serif" font-size="22" fill="#0D2149">Your Journey Our Priority</text>
+</svg>

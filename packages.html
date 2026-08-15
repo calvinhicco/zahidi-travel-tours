@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Holiday Packages | Zahidi Travel & Tours</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/brand/zahidi-logo.png" />
+</head>
+<body>
+  <div class="topbar"><div class="container"><div>Holiday packages · flights · hotels · visas</div><div class="topbar-right"><a href="tel:+263776837326">+263 776 837 326</a></div></div></div>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><img src="images/brand/zahidi-logo.png" alt="Zahidi Travel &amp; Tours" /></a>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="siteNav"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a class="active" href="packages.html">Holidays</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="corporate.html">Corporate</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="flyers.html">Flyers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <a class="btn btn-orange" href="contact.html">Book now</a>
+  </div></header>
+
+  <section class="page-hero">
+    <img src="images/destinations/dubai-marina.jpg" alt="Holiday skyline" />
+    <div class="overlay"></div>
+    <div class="container"><p class="eyebrow">Holidays</p><h1>Packages from our flyers and tours</h1></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="lead">These are the programs Zahidi already runs — school excursions, family days, lodge retreats, charter hire and long-haul city breaks. See the original posters on the <a href="flyers.html">Flyers</a> page.</p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/media/media-048.jpeg" alt="Chinhoyi Caves school trip" />
+          <div class="card-body">
+            <span class="tag">School program</span>
+            <h3>Chinhoyi Caves educational tour</h3>
+            <p>Return transport, park entry, Sleeping Pool visit, lion park add-on and supervised group logistics. Delivered for Zimbabwe schools including Tree of Life Group of Schools.</p>
+            <p class="price">Quote per learner <span>· Day trip</span></p>
+            <button class="btn btn-orange" onclick="enquire('Chinhoyi Caves educational tour')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/zipline.jpg" alt="Mutarazi Falls" />
+          <div class="card-body">
+            <span class="tag">Adventure</span>
+            <h3>Mutarazi Falls skywalk &amp; skyline</h3>
+            <p>Eastern Highlands day or overnight: skywalk over the gorge, skyline zip and waterfall views. Ideal for youth groups and families.</p>
+            <p class="price">From quote <span>· Eastern Highlands</span></p>
+            <button class="btn btn-orange" onclick="enquire('Mutarazi Falls Skywalk package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/victoria-falls-bridge.jpg" alt="Victoria Falls package" />
+          <div class="card-body">
+            <span class="tag">Classic Zimbabwe</span>
+            <h3>Victoria Falls 3-day escape</h3>
+            <p>Flights or road transfer, lodge, rainforest tour, sunset cruise and optional helicopter. Built for couples and families.</p>
+            <p class="price">3 days / 2 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Victoria Falls 3-day package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/sunset-lake.jpg" alt="Kariba houseboat" />
+          <div class="card-body">
+            <span class="tag">Leisure</span>
+            <h3>Kariba houseboat weekend</h3>
+            <p>Skipper, meals, fishing and game viewing on the lake. Perfect for friends, families and small companies.</p>
+            <p class="price">2–4 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Kariba houseboat weekend')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/media/media-007.jpeg" alt="Team building lodge" />
+          <div class="card-body">
+            <span class="tag">Corporate</span>
+            <h3>Lodge team-building retreat</h3>
+            <p>Facilitated games, meeting rooms, thatch lodges and full-board. Run at Zimbabwe resorts with Zahidi coordination.</p>
+            <p class="price">Custom groups</p>
+            <button class="btn btn-orange" onclick="enquire('Lodge team building retreat')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/media/media-046.jpeg" alt="Charter van" />
+          <div class="card-body">
+            <span class="tag">Charter</span>
+            <h3>Private van &amp; coach hire</h3>
+            <p>Mercedes Sprinter and larger coaches for hire — airport transfers, pilgrimages, sports teams and multi-day tours. Call +263 776 837 326.</p>
+            <p class="price">Daily / itinerary rates</p>
+            <button class="btn btn-orange" onclick="enquire('Private charter hire')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/dubai.jpg" alt="Dubai holiday" />
+          <div class="card-body">
+            <span class="tag">UAE</span>
+            <h3>Dubai city &amp; desert</h3>
+            <p>Return flights, hotel, desert safari, marina cruise and Burj views. Visa assistance included in planning.</p>
+            <p class="price">5–7 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Dubai holiday package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/abu-dhabi.jpg" alt="Abu Dhabi" />
+          <div class="card-body">
+            <span class="tag">UAE</span>
+            <h3>Abu Dhabi culture &amp; parks</h3>
+            <p>Sheikh Zayed Mosque, Louvre Abu Dhabi, Ferrari World and Yas Island tickets with hotel stay.</p>
+            <p class="price">4–6 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Abu Dhabi holiday package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/london-eye.jpg" alt="London" />
+          <div class="card-body">
+            <span class="tag">UK</span>
+            <h3>London highlights</h3>
+            <p>Flights, hotel, London Eye and city touring. UK visa guidance for Zimbabwean travellers.</p>
+            <p class="price">5–8 nights</p>
+            <button class="btn btn-orange" onclick="enquire('London holiday package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/singapore-gardens.jpg" alt="Singapore" />
+          <div class="card-body">
+            <span class="tag">Asia</span>
+            <h3>Singapore family break</h3>
+            <p>Marina Bay, Gardens by the Bay, Sentosa and easy city transport. Great for first-time Asia travellers.</p>
+            <p class="price">5–7 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Singapore holiday package')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/nyanga.png" alt="Nyanga holiday" />
+          <div class="card-body">
+            <span class="tag">Eastern Highlands</span>
+            <h3>Nyanga holiday</h3>
+            <p>Mountain lodge stay with pool, park walks, trout fishing and Mutarazi nearby. Ideal for families and long weekends.</p>
+            <p class="price">2–4 nights</p>
+            <button class="btn btn-orange" onclick="enquire('Nyanga holiday')">Book this program</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/hotel.jpg" alt="Hotels" />
+          <div class="card-body">
+            <span class="tag">Add-ons</span>
+            <h3>Flights, hotels, visas &amp; insurance</h3>
+            <p>Standalone bookings or full packages. We also arrange car rental and travel insurance.</p>
+            <p class="price">Tailor-made</p>
+            <button class="btn btn-orange" onclick="enquire('flights hotels visas and insurance')">Book this program</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container copy"><span>© 2026 Zahidi Travel &amp; Tours</span><a href="index.html">Home</a></div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/263776837326">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>

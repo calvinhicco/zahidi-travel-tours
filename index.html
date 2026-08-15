@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zahidi Travel & Tours | Your Journey Our Priority</title>
+  <meta name="description" content="Zahidi Travel & Tours is a Zimbabwean travel company offering flights, holidays, team building, school tours and international packages to Dubai, Abu Dhabi, London and Singapore." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/brand/zahidi-logo.png" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div>Zimbabwe · Victoria Falls · Kariba · Nyanga · Worldwide holidays</div>
+      <div class="topbar-right">
+        <a href="tel:+263776837326">+263 776 837 326</a>
+        <a href="https://wa.me/263776837326" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="contact.html">Enquire now</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/brand/zahidi-logo.png" alt="Zahidi Travel & Tours" />
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Open menu">☰</button>
+      <nav id="siteNav">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Holidays</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="corporate.html">Corporate</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="flyers.html">Flyers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-orange" href="contact.html">Book now</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img class="hero-banner" src="images/brand/hero-banner.png" alt="Zahidi Travel & Tours — Amazing tours and holidays around Zimbabwe and the world" />
+    <div class="hero-mobile-copy">
+      <h1>Amazing tours &amp; holidays around Zimbabwe and the world</h1>
+      <p>Find great experiences, trips and activities — from Victoria Falls, Kariba and Nyanga to Dubai, Abu Dhabi, London and Singapore.</p>
+    </div>
+  </section>
+
+  <div class="container search-wrap">
+    <form class="search-card" onsubmit="handleSearch(event)">
+      <div>
+        <label>Destination</label>
+        <select name="destination">
+          <option>Victoria Falls</option>
+          <option>Lake Kariba</option>
+          <option>Nyanga</option>
+          <option>Chinhoyi Caves</option>
+          <option>Mutarazi Falls</option>
+          <option>Dubai</option>
+          <option>Abu Dhabi</option>
+          <option>London</option>
+          <option>Singapore</option>
+        </select>
+      </div>
+      <div>
+        <label>Travel date</label>
+        <input type="date" name="date" />
+      </div>
+      <div>
+        <label>Travellers</label>
+        <select name="people">
+          <option>2 adults</option>
+          <option>Family</option>
+          <option>School group</option>
+          <option>Corporate team</option>
+        </select>
+      </div>
+      <button class="btn btn-orange" type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <div class="cats">
+      <a class="cat" href="packages.html"><div class="icon">✈</div><strong>Flight bookings</strong></a>
+      <a class="cat" href="packages.html"><div class="icon">🏨</div><strong>Hotel reservations</strong></a>
+      <a class="cat" href="packages.html"><div class="icon">🌴</div><strong>Holiday packages</strong></a>
+      <a class="cat" href="contact.html"><div class="icon">🛂</div><strong>Visa assistance</strong></a>
+      <a class="cat" href="corporate.html"><div class="icon">🚐</div><strong>Charter service</strong></a>
+      <a class="cat" href="corporate.html"><div class="icon">🤝</div><strong>Team building</strong></a>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container center">
+      <p class="eyebrow">Explore Zimbabwe</p>
+      <h2>Top destinations</h2>
+      <p class="lead">A Zimbabwean company with local expertise and global reach. Start at home, then fly further.</p>
+      <div class="round-row">
+        <a class="round-item" href="destinations.html#victoria-falls"><img src="images/destinations/victoria-falls.jpg" alt="Victoria Falls" /><span>Vic Falls</span></a>
+        <a class="round-item" href="destinations.html#kariba"><img src="images/destinations/kariba.jpg" alt="Lake Kariba" /><span>Kariba</span></a>
+        <a class="round-item" href="destinations.html#nyanga"><img src="images/destinations/nyanga.png" alt="Nyanga" /><span>Nyanga</span></a>
+        <a class="round-item" href="destinations.html#chinhoyi"><img src="images/activities/cave.jpg" alt="Chinhoyi Caves" /><span>Chinhoyi</span></a>
+        <a class="round-item" href="destinations.html#dubai"><img src="images/destinations/dubai.jpg" alt="Dubai" /><span>Dubai</span></a>
+        <a class="round-item" href="destinations.html#abu-dhabi"><img src="images/destinations/abu-dhabi.jpg" alt="Abu Dhabi" /><span>Abu Dhabi</span></a>
+        <a class="round-item" href="destinations.html#london"><img src="images/destinations/london.jpg" alt="London" /><span>London</span></a>
+        <a class="round-item" href="destinations.html#singapore"><img src="images/destinations/singapore.jpg" alt="Singapore" /><span>Singapore</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--cream)">
+    <div class="container">
+      <p class="eyebrow">Signature Zimbabwe</p>
+      <h2>Places we know by heart</h2>
+      <div class="dest-grid">
+        <a class="dest-card" href="destinations.html#victoria-falls">
+          <img src="images/destinations/victoria-falls-sunrise.jpg" alt="Victoria Falls sunrise" />
+          <div class="cap"><small>Zimbabwe</small><h3>Victoria Falls</h3><p>Mosi-oa-Tunya, the smoke that thunders — walks, helicopter flights and Zambezi sunsets.</p></div>
+        </a>
+        <a class="dest-card" href="destinations.html#kariba">
+          <img src="images/destinations/sunset-lake.jpg" alt="Lake Kariba sunset" />
+          <div class="cap"><small>Zimbabwe</small><h3>Lake Kariba</h3><p>Houseboats, tiger fishing, game viewing and quiet evenings on Africa’s inland sea.</p></div>
+        </a>
+        <a class="dest-card" href="destinations.html#nyanga">
+          <img src="images/destinations/nyanga.png" alt="Nyanga holiday resort" />
+          <div class="cap"><small>Eastern Highlands</small><h3>Nyanga holiday</h3><p>Mountain air, lodge pools, trout fishing and hiking in Zimbabwe’s cool highlands.</p></div>
+        </a>
+        <a class="dest-card" href="destinations.html#chinhoyi">
+          <img src="images/activities/cave.jpg" alt="Chinhoyi Caves" />
+          <div class="cap"><small>Mashonaland West</small><h3>Chinhoyi Caves</h3><p>The Sleeping Pool, lion park visits and classic school &amp; family day trips.</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap">
+        <div>
+          <p class="eyebrow">Things to do</p>
+          <h2>Popular activities</h2>
+        </div>
+        <a class="btn btn-outline" href="activities.html">See all activities</a>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/destinations/victoria-falls-bridge.jpg" alt="Victoria Falls viewing" />
+          <div class="card-body">
+            <span class="tag">Victoria Falls</span>
+            <h3>Falls tour &amp; rainforest walk</h3>
+            <p>Guided viewing of the gorge, Knife Edge and the spray of the Zambezi.</p>
+            <p class="price">From quote <span>· Instant enquiry</span></p>
+            <button class="btn btn-orange" onclick="enquire('Victoria Falls rainforest walk')">Book now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/boat.jpg" alt="Kariba boat cruise" />
+          <div class="card-body">
+            <span class="tag">Kariba</span>
+            <h3>Sunset cruise &amp; houseboat</h3>
+            <p>Cruise the lake, watch hippo and elephant, and sleep on the water.</p>
+            <p class="price">From quote <span>· Groups welcome</span></p>
+            <button class="btn btn-orange" onclick="enquire('Kariba houseboat cruise')">Book now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/lion.jpg" alt="Lion viewing" />
+          <div class="card-body">
+            <span class="tag">Chinhoyi</span>
+            <h3>Lion park &amp; caves combo</h3>
+            <p>Live lion viewing plus the cobalt waters of the Sleeping Pool.</p>
+            <p class="price">School &amp; family <span>· Day trip</span></p>
+            <button class="btn btn-orange" onclick="enquire('Chinhoyi Caves and Lion Park')">Book now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/zipline.jpg" alt="Mutarazi skywalk" />
+          <div class="card-body">
+            <span class="tag">Eastern Highlands</span>
+            <h3>Mutarazi skywalk &amp; skyline</h3>
+            <p>Walk the cantilever platform and zip across Zimbabwe’s highest waterfall.</p>
+            <p class="price">Adventure <span>· Day / overnight</span></p>
+            <button class="btn btn-orange" onclick="enquire('Mutarazi Falls Skywalk')">Book now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/activities/desert-safari.jpg" alt="Dubai desert safari" />
+          <div class="card-body">
+            <span class="tag">Dubai</span>
+            <h3>Premium desert safari</h3>
+            <p>Dune bashing, camel rides, dinner and evening entertainment in the desert.</p>
+            <p class="price">UAE add-on <span>· Flights + hotel</span></p>
+            <button class="btn btn-orange" onclick="enquire('Dubai desert safari package')">Book now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/destinations/abu-dhabi.jpg" alt="Sheikh Zayed Mosque" />
+          <div class="card-body">
+            <span class="tag">Abu Dhabi</span>
+            <h3>Mosque, Louvre &amp; Yas Island</h3>
+            <p>Culture by day, Ferrari World and Yas Marina by night.</p>
+            <p class="price">City break <span>· 4–7 nights</span></p>
+            <button class="btn btn-orange" onclick="enquire('Abu Dhabi holiday')">Book now</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="services section">
+    <svg class="wave wave-top" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f4ef" d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,0 L0,0 Z"/></svg>
+    <div class="container">
+      <div class="services-title"><span>OUR SERVICES</span></div>
+      <div class="service-grid">
+        <div class="service-item"><span class="icon">✈</span> FLIGHT BOOKINGS</div>
+        <div class="service-item"><span class="icon">🚗</span> CAR RENTAL</div>
+        <div class="service-item"><span class="icon">🏨</span> HOTEL RESERVATIONS</div>
+        <div class="service-item"><span class="icon">👥</span> TEAM BUILDING</div>
+        <div class="service-item"><span class="icon">🌴</span> HOLIDAY PACKAGES</div>
+        <div class="service-item"><span class="icon">🧭</span> CHARTER SERVICE</div>
+        <div class="service-item"><span class="icon">🛂</span> VISA ASSISTANCE</div>
+        <div class="service-item"><span class="icon">🛡</span> TRAVEL INSURANCE</div>
+      </div>
+    </div>
+    <svg class="wave wave-bottom" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#ffffff" d="M0,30 C240,0 480,70 720,40 C960,10 1200,60 1440,30 L1440,70 L0,70 Z"/></svg>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Holiday packages</p>
+      <h2>Programs we sell</h2>
+      <p class="lead">Drawn from Zahidi’s own tours — school trips, family holidays, corporate retreats and international getaways.</p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/media/media-047.jpeg" alt="School group at Chinhoyi" />
+          <div class="card-body">
+            <span class="tag">Education</span>
+            <h3>School tour — Chinhoyi Caves</h3>
+            <p>Branded group travel with transport, supervision and park visits. Proven with Zimbabwe school groups.</p>
+            <button class="btn btn-navy" onclick="enquire('School tour to Chinhoyi Caves')">Request a quote</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/media/media-007.jpeg" alt="Corporate team building" />
+          <div class="card-body">
+            <span class="tag">Corporate</span>
+            <h3>Lodge team building</h3>
+            <p>Outdoor games, workshops and lodge stays — designed for companies and departments.</p>
+            <button class="btn btn-navy" onclick="enquire('Corporate team building retreat')">Request a quote</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/media/media-046.jpeg" alt="Zahidi charter van" />
+          <div class="card-body">
+            <span class="tag">Transport</span>
+            <h3>Charter &amp; transfers</h3>
+            <p>Sprinter and coach hire for hire groups, airport runs and multi-day itineraries.</p>
+            <button class="btn btn-navy" onclick="enquire('Charter van hire')">Request a quote</button>
+          </div>
+        </article>
+      </div>
+      <p class="see-more-wrap"><a class="btn btn-outline" href="packages.html">View all holidays</a></p>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--cream)">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h2>On the road with Zahidi</h2>
+          <p class="lead">Photos and video from real trips. A first look — tap See more for the full media room.</p>
+        </div>
+        <a class="btn btn-outline" href="media.html">Open media</a>
+      </div>
+      <div class="media-grid">
+        <div class="media-item" data-lightbox="images/media/media-073.jpeg" onclick="openLightbox('images/media/media-073.jpeg', false, this)"><img src="images/media/media-073.jpeg" alt="Nyanga sign" /></div>
+        <div class="media-item" data-lightbox="images/media/media-068.jpeg" onclick="openLightbox('images/media/media-068.jpeg', false, this)"><img src="images/media/media-068.jpeg" alt="Mutarazi Falls" /></div>
+        <div class="media-item" data-lightbox="images/media/media-074.jpeg" onclick="openLightbox('images/media/media-074.jpeg', false, this)"><img src="images/media/media-074.jpeg" alt="Zahidi team" /></div>
+        <div class="media-item" data-lightbox="images/media/media-082.jpeg" onclick="openLightbox('images/media/media-082.jpeg', false, this)"><img src="images/media/media-082.jpeg" alt="Safari elephants" /></div>
+        <div class="media-item" data-lightbox="images/media/media-086.jpeg" onclick="openLightbox('images/media/media-086.jpeg', false, this)"><img src="images/media/media-086.jpeg" alt="Quad bike fun" /></div>
+        <div class="media-item" data-lightbox="images/media/media-072.jpeg" onclick="openLightbox('images/media/media-072.jpeg', false, this)"><img src="images/media/media-072.jpeg" alt="Boat cruise" /></div>
+        <div class="media-item" data-lightbox="images/media/media-047.jpeg" onclick="openLightbox('images/media/media-047.jpeg', false, this)"><img src="images/media/media-047.jpeg" alt="School tour" /></div>
+        <div class="media-item video" data-lightbox="images/media/media-066.mp4" data-video="true" onclick="openLightbox('images/media/media-066.mp4', true, this)"><video src="images/media/media-066.mp4" muted></video></div>
+      </div>
+      <p class="see-more-wrap"><a class="btn btn-orange" href="media.html">See more photos &amp; videos</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap">
+        <div>
+          <p class="eyebrow">Flyers</p>
+          <h2>Current posters and packages</h2>
+          <p class="lead">Official Zahidi flyers only — tap to enlarge, then swipe through the full set.</p>
+        </div>
+        <a class="btn btn-outline" href="flyers.html">All flyers</a>
+      </div>
+      <div class="flyer-grid">
+        <article class="flyer-card" data-lightbox="images/flyers/flyer-09.jpg" onclick="openLightbox('images/flyers/flyer-09.jpg', false, this)">
+          <img src="images/flyers/flyer-09.jpg" alt="Nyanga weekend getaway flyer" />
+          <h3>Nyanga weekend getaway</h3>
+          <p>08–11 August 2026</p>
+        </article>
+        <article class="flyer-card" data-lightbox="images/flyers/flyer-11.jpg" onclick="openLightbox('images/flyers/flyer-11.jpg', false, this)">
+          <img src="images/flyers/flyer-11.jpg" alt="Zanzibar couples trip flyer" />
+          <h3>Zanzibar couples trip</h3>
+          <p>From $2600 per couple</p>
+        </article>
+        <article class="flyer-card" data-lightbox="images/flyers/flyer-06.jpg" onclick="openLightbox('images/flyers/flyer-06.jpg', false, this)">
+          <img src="images/flyers/flyer-06.jpg" alt="Dubai holiday flyer" />
+          <h3>Dubai is calling</h3>
+          <p>Luxury meets adventure</p>
+        </article>
+        <article class="flyer-card" data-lightbox="images/flyers/flyer-01.jpg" onclick="openLightbox('images/flyers/flyer-01.jpg', false, this)">
+          <img src="images/flyers/flyer-01.jpg" alt="Victoria Falls group trip flyer" />
+          <h3>Victoria Falls group trip</h3>
+          <p>Travel together</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--cream)">
+    <div class="container split">
+      <img src="images/destinations/victoria-falls.jpg" alt="Victoria Falls mist" />
+      <div>
+        <p class="eyebrow">Why Zahidi</p>
+        <h2>Local roots. Global tickets.</h2>
+        <p>Zahidi Travel &amp; Tours plans journeys from Zimbabwe — school excursions, corporate retreats, family holidays and long-haul city breaks. We book flights, hotels, visas, insurance, car hire and private charter so you travel with one team.</p>
+        <p>Call or WhatsApp us on <strong>+263 776 837 326</strong>.</p>
+        <a class="btn btn-orange" href="contact.html">Start planning</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/brand/zahidi-logo.png" alt="Zahidi Travel & Tours" />
+        <p>Your Journey Our Priority. Zimbabwean travel specialists for Victoria Falls, Kariba, Nyanga and world cities.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Holiday packages</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="corporate.html">Corporate &amp; charter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="flyers.html">Flyers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Talk to us</h4>
+        <ul>
+          <li><a href="tel:+263776837326">+263 776 837 326</a></li>
+          <li><a href="https://wa.me/263776837326">WhatsApp chat</a></li>
+          <li>Harare, Zimbabwe</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copy">
+      <span>© 2026 Zahidi Travel &amp; Tours. All rights reserved.</span>
+      <span>Flights · Hotels · Visas · Insurance · Charter</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/263776837326" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" type="button">×</button>
+    <button class="lightbox-nav prev" type="button" onclick="event.stopPropagation(); lightboxNav(-1)">‹</button>
+    <img id="lightboxImg" alt="Gallery photo" />
+    <video id="lightboxVid" controls></video>
+    <button class="lightbox-nav next" type="button" onclick="event.stopPropagation(); lightboxNav(1)">›</button>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

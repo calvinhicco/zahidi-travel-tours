@@ -1,5 +1,6 @@
-const PHONE = "+263776837326";
-const WHATSAPP = "https://wa.me/263776837326";
+const PHONE = "+263772668289";
+const PHONE_ALT = "+263785816339";
+const WHATSAPP = "https://wa.me/263772668289";
 
 function toggleMenu() {
   document.getElementById("siteNav")?.classList.toggle("open");
